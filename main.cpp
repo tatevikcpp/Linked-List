@@ -1,10 +1,9 @@
 #include <iostream>
 #include <list>
-using namespace std;
 
 int main()
 {
-	list<int> l = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	std::list<int> l = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 	int k = 7;
 
@@ -23,7 +22,5 @@ int main()
 		q++;
 	}
 
-	cout << *q << endl;
-
-	system("pause");
+	std::cout << *q <<std:: endl;
 }
